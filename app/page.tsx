@@ -1,31 +1,34 @@
-import Component1 from "./Component1";
-
-export default function Home() {
+export default function Item() {
   return (
-    <>
-      <Component1 />
-      <div className="grid grid-rows-[20px_1fr] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-          <div className="flex gap-4 items-center flex-col sm:flex-row">
-            <a
-              className="rounded-full border border-solid border-transparent transition-all duration-300 ease-in-out flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] hover:scale-105 hover:shadow-lg active:scale-95 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              NO hello world de tomasin
-            </a>
-            <a
-              className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 ease-in-out flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 hover:shadow-lg active:scale-95 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LOs marcianos llegaron ya
-            </a>
-          </div>
-        </main>
-      </div>
-    </>
+    <main className="flex items-center justify-center min-h-screen bg-gradient-to-b from-red-50 to-red-100 font-[family-name:var(--font-geist-sans)]" >
+      <ul className="w-80 bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl 
+        transition-all duration-500 hover:scale-105">
+        <div className="w-full h-48 overflow-hidden">
+          <img 
+            src="https://static.vecteezy.com/system/resources/previews/001/882/528/non_2x/beautiful-landscape-pine-forest-with-mesmerizing-mountain-views-free-vector.jpg" 
+            alt="Beautiful Landscape" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <ul className="p-6 transform transition-transform duration-300">
+          <h2 className="text-xl font-bold text-gray-800 mb-2 hover:text-red-500 transition-colors duration-300 ">
+            Red Heaven??? Heaven??? JOJOS REFERENCE
+          </h2>
+          <p className="text-gray-500 text-sm mb-4 leading-relaxed">
+            Hola soy tomasin, no se que ponerle profe pero usted no me dejo poner mi animacion bonita y eso me deprime....
+          </p>
+          <ul className="flex gap-2">
+            <span className="px-3 py-1 text-sm bg-red-100 text-red-600 rounded-full 
+              hover:bg-red-200 hover:scale-105 transition-all duration-300 cursor-pointer">
+              #Tomasin
+            </span>
+            <span className="px-3 py-1 text-sm bg-red-100 text-red-600 rounded-full  
+              hover:bg-red-200 hover:scale-105 transition-all duration-300 cursor-pointer">
+              #Zapayo
+            </span>
+          </ul>
+        </ul>
+      </ul>
+    </main>
   );
 }

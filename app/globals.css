@@ -17,5 +17,53 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+@keyframes cardEntrance {
+  0% {
+    transform: rotateX(-90deg) translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes tagsEntrance {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes floatLeft {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes floatRight {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(100%); }
+}
+
+.mountain-path {
+  transition: fill 0.3s ease;
+}
+
+.mountain-path:hover {
+  fill: #FF6347;
+}
+
+.forest-path {
+  transition: fill 0.3s ease;
+}
+
+.forest-path:hover {
+  fill: #3B0D4D;
 }
