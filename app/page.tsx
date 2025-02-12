@@ -6,7 +6,7 @@ export default function Item() {
         <div className="w-full h-48 overflow-hidden">
           <img 
             src="https://static.vecteezy.com/system/resources/previews/001/882/528/non_2x/beautiful-landscape-pine-forest-with-mesmerizing-mountain-views-free-vector.jpg" 
-            alt="Beautiful Landscape" 
+            alt="Noimagen" 
             className="w-full h-full object-cover"
           />
         </div>

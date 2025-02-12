@@ -41,29 +41,3 @@ body {
     opacity: 1;
   }
 }
-
-@keyframes floatLeft {
-  from { transform: translateX(100%); }
-  to { transform: translateX(-100%); }
-}
-
-@keyframes floatRight {
-  from { transform: translateX(-100%); }
-  to { transform: translateX(100%); }
-}
-
-.mountain-path {
-  transition: fill 0.3s ease;
-}
-
-.mountain-path:hover {
-  fill: #FF6347;
-}
-
-.forest-path {
-  transition: fill 0.3s ease;
-}
-
-.forest-path:hover {
-  fill: #3B0D4D;
-}
