@@ -12,10 +12,10 @@ export default function Item() {
         </div>
         <ul className="p-6 transform transition-transform duration-300">
           <h2 className="text-xl font-bold text-gray-800 mb-2 ">
-            Red Heaven??? Heaven??? JOJOS REFERENCE
+            Red Heaven?
           </h2>
           <p className="text-gray-500 text-sm mb-4 leading-relaxed">
-            Hola soy tomasin, no se que ponerle profe pero usted no me dejo poner mi animacion bonita y eso me deprime....
+            Hola soy tomasin, no se que ponerle profe pero usted no me dejo poner mi animacion bonita pero bueno no importa, dislike?
           </p>
           <ul className="flex gap-2">
             <span className="px-3 py-1 text-sm bg-red-100 text-red-600 rounded-full 
