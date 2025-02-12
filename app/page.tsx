@@ -11,7 +11,7 @@ export default function Item() {
           />
         </div>
         <ul className="p-6 transform transition-transform duration-300">
-          <h2 className="text-xl font-bold text-gray-800 mb-2 hover:text-red-500 transition-colors duration-300 ">
+          <h2 className="text-xl font-bold text-gray-800 mb-2 ">
             Red Heaven??? Heaven??? JOJOS REFERENCE
           </h2>
           <p className="text-gray-500 text-sm mb-4 leading-relaxed">
