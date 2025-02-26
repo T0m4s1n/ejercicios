@@ -31,8 +31,8 @@ export default function AppareanceExerciseT0m4s1n() {
           <ul className="flex justify-between mt-4">
             <li className="flex flex-col items-center">
               <figure className="rounded-lg w-20 h-16 flex overflow-hidden mb-2">
-                <div className="flex w-full h-full">
-                  <div className="w-1/2 bg-purple-100 p-1">
+                <span className="flex w-full h-full">
+                  <span className="w-1/2 bg-purple-100 p-1">
                     <span className="bg-purple-300 h-1 w-6 mb-1 rounded block"></span>
                     <span className="bg-purple-300 h-1 w-5 mb-1 rounded block"></span>
                     <span className="bg-purple-300 h-1 w-4 mb-1 rounded block"></span>
@@ -41,8 +41,7 @@ export default function AppareanceExerciseT0m4s1n() {
                       <span className="bg-purple-300 h-0.5 w-5 mt-0.5 ml-0.5 rounded block"></span>
                       <span className="bg-purple-300 h-0.5 w-4 mt-0.5 ml-0.5 rounded block"></span>
                     </span>
-                  </div>
-                  {/* Dark side */}
+                  </span>
                   <div className="w-1/2 bg-indigo-800 p-1">
                     <span className="bg-indigo-700 h-1 w-6 mb-1 rounded block"></span>
                     <span className="bg-indigo-700 h-1 w-5 mb-1 rounded block"></span>
@@ -53,7 +52,7 @@ export default function AppareanceExerciseT0m4s1n() {
                       <span className="bg-indigo-700 h-0.5 w-4 mt-0.5 ml-0.5 rounded block"></span>
                     </span>
                   </div>
-                </div>
+                </span>
               </figure>
               <figcaption className="text-xs text-gray-500">Auto</figcaption>
             </li>
